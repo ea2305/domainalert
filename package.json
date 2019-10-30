@@ -1,0 +1,19 @@
+{
+  "name": "domainalert",
+  "version": "1.0.0",
+  "description": "Send Slack message wuth domain analysis throught GCloud Function",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "0.19.0",
+    "dotenv": "8.2.0",
+    "moment": "2.24.0",
+    "moment-timezone": "0.5.27",
+    "whois-json": "2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Elihu A. Cruz",
+  "license": "MIT"
+}
